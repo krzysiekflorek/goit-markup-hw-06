@@ -22,72 +22,69 @@
     </head>
     <body>
         <header class="border-header">
-            <div class="header-container menu-flex-container">
-              <a href="./index.html" class="header-logo link-no-underline"
-                ><span class="blue-text">Web</span
-                ><span class="black-text">Studio</span>
-              </a>
-              <div class="menu">
-                <nav>
-                  <ul class="header-list nav-list">
-                    <li>
-                      <a
-                        class="header-list-item-link text black-text"
-                        href="./index.html"
-                        >Agencja</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="header-list-item-link black-text text"
-                        href="./portfolio.html"
-                        >Portfolio</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="header-list-item-link black-text"
-                        href="./contact.html"
-                        >Kontakt</a
-                      >
-                    </li>
-                  </ul>
+            <div class="container menu-flex-container">
+                <a href="./index.html" class="header-logo link-no-underline"
+                    ><span class="blue-text">Web</span
+                    ><span class="black-text">Studio</span>
+                </a>
+                <nav class="header-list">
+                    <ul class="nav-list link-no-underline">
+                        <li>
+                            <a href="./index.html"
+                                class="header-list-item-link blue-text link-no-underline current-link"
+                                >Agencja</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="header-list-item-link black-text text link-no-underline"
+                                href="./portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="header-list-item-link black-text link-no-underline"
+                                href="./contact.html"
+                                >Kontakt</a
+                            >
+                        </li>
+                    </ul>
                 </nav>
                 <ul class="navigation-list header-list">
-                  <li class="icons-contact">
-                    <a
-                      class="contact-link-style link-no-underline"
-                      href="mailto:info@devstudio.com"
-                    >
-                      <svg class="header-icon links icon contacts-icon">
-                        <use
-                          href="images/icons.svg#icon-envelope"
-                          width="16"
-                          height="16"
-                        ></use>
-                      </svg>
-                      info@devstudio.com</a
-                    >
-                  </li>
-                  <li class="icons-contact">
-                    <a
-                      class="contact-link-style link-no-underline"
-                      href="tel:+48111111111"
-                    >
-                      <svg class="links icon contacts-icon">
-                        <use
-                          href="images/icons.svg#icon-smartphone"
-                          width="16"
-                          height="16"
-                        ></use>
-                      </svg>
-                      +48 111 111 111</a
-                    >
-                  </li>
+                    <li class="icons-contact">
+                        <a
+                            class="contact-link-style link-no-underline"
+                            href="mailto:info@devstudio.com"
+                        >
+                            <svg class="header-icon links icon contacts-icon">
+                                <use
+                                    href="images/icons.svg#icon-envelope"
+                                    width="16"
+                                    height="16"
+                                ></use>
+                            </svg>
+                            info@devstudio.com</a
+                        >
+                    </li>
+                    <li class="icons-contact">
+                        <a
+                            class="contact-link-style link-no-underline"
+                            href="tel:+48111111111"
+                        >
+                            <svg class="links icon contacts-icon">
+                                <use
+                                    href="images/icons.svg#icon-smartphone"
+                                    width="16"
+                                    height="16"
+                                ></use>
+                            </svg>
+                            +48 111 111 111</a
+                        >
+                    </li>
                 </ul>
-              </div>
             </div>
-          </header>
+        </header>
         <main>
             <section class="top-section">
                 <div class="top-section-flex background-image">
@@ -95,12 +92,12 @@
                         EFEKTYWNE ROZWIĄZANIA <br />
                         DLA WASZEGO BIZNESU
                     </h1>
-                    <button class="top-section-button w-text" type="button" data-modal-open="">
+                    <button class="top-section-button w-text" type="button" data-modal-open>
                         Zamów usługę
                     </button>
                 </div>
             </section>
-            <section class="section">
+            <section>
                 <div class="container">
                     <ul class="header-list icon-flex-wrap">
                         <li class="icons-box">
@@ -126,6 +123,8 @@
                             </svg>
                         </li>
                     </ul>
+                </div>
+                <div class="container">
                     <ul class="header-list lorem-list">
                         <li>
                             <h4 class="text-header heading-lorem">
@@ -170,37 +169,40 @@
                     </ul>
                 </div>
             </section>
-            <section class="container section section-activity">
+            <section class="container section-activity">
                     <h2>Czym się zajmujemy</h2>
-                    <ul class="header-list text-list images-activity">
-                        <li>
+                    <ul>
+                        <li class="text-label">
                             <img
                                 src="images/image1.jpg"
                                 alt="Programista piszący kod na klawiaturze"
                                 width="370"
                                 height="294"
                             />
+                            <p class="img-label">APLIKACJE KOMPUTEROWE</p>
                         </li>
-                        <li>
+                        <li class="text-label">
                             <img
                                 src="images/image2.jpg"
                                 alt="Programistka korzysta jednocześnie z komputera i smartfonu"
                                 width="370"
                                 height="294"
                             />
+                            <p class="img-label">APLIKACJE MOBILNE</p>
                         </li>
-                        <li>
+                        <li class="text-label">
                             <img
                                 src="images/image3.jpg"
                                 alt="Programistka trzyma w ręku smartfon z wyświetlaczem na którym jest kolorowy sześciokąt"
                                 width="370"
                                 height="294"
                             />
+                            <p class="img-label">ROZWIĄZANIA GRAFICZNE</p>
                         </li>
                     </ul>
             </section>
             <div class="background-section">
-            <section class="section container section-bottom">
+            <section class="container section-bottom">
                     <h2>Nasz zespół</h2>
                     <ul>
                         <li>
@@ -236,7 +238,7 @@
                                 </svg>
                             </a>
                             <a href="">
-                                <svg width="44px" height="44px">
+                                <svg class="f-position" width="44px" height="44px">
                                   <use
                                   width="20px"
                                   height="20px"
@@ -292,7 +294,7 @@
                                 </svg>
                             </a>
                             <a href="">
-                                <svg width="44px" height="44px">
+                                <svg class="f-position" width="44px" height="44px">
                                   <use
                                   width="20px"
                                   height="20px"
@@ -348,7 +350,7 @@
                                 </svg>
                             </a>
                             <a href="">
-                                <svg width="44px" height="44px">
+                                <svg class="f-position" width="44px" height="44px">
                                   <use
                                   width="20px"
                                   height="20px"
@@ -429,17 +431,9 @@
             </li>
         </ul>
     </section>
-</div>
-<section class="container section studio-section">
+<section class="container studio-section">
     <h2>Nasi klienci</h2>
     <ul>
-        <li>
-            <a href="">
-                <svg class="studio-icon" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-logo-5"></use>
-                </svg>
-            </a>
-        </li>
         <li>
             <a href="">
                 <svg class="studio-icon" width="106px" height="60px">
@@ -465,6 +459,13 @@
             <a href="">
                 <svg class="studio-icon" width="106px" height="60px">
                     <use href="./images/icons.svg#icon-logo-4"></use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <svg class="studio-icon" width="106px" height="60px">
+                    <use href="./images/icons.svg#icon-logo-5"></use>
                 </svg>
             </a>
         </li>
@@ -552,5 +553,16 @@
     </div>
 </div>
 </footer>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+            <svg width="18" height="18" class="button-x">
+                <use xlink:href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
