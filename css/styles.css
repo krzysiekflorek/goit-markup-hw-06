@@ -102,12 +102,12 @@ a:hover {
   width: 53px;
   border-bottom: #2196f3;
   border-top-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 44px;
+  margin-top: 45px;
   display: block;
 }
 .current-link-portfolio::after {
@@ -325,9 +325,8 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 20px;
   width: 370px;
-  height: 40px;
+  height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -666,6 +665,23 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: #2196f3;
+}
 
 /* all */
 
@@ -880,10 +896,6 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.f-position {
-  position: relative;
-  left: 4px;
-}
 
 /* modal window */
 
@@ -935,4 +947,9 @@ footer > div {
   justify-content: center;
   top: 8px;
   right: 8px;
+}
+.close-btn:hover,
+.close-btn:focus {
+  transform: scale(1.25);
+  background-color: #f5f4fa;
 }
