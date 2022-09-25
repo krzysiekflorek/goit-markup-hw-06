@@ -427,6 +427,41 @@
           </ul>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="container-footer-newsletter">
+        <div class="newsletter-container">
+          <form name="newsletter">
+            <span class="newsletter-description">
+              Zapisz się do newslettera</span>
+              <div class="flex-row">
+                <label
+                for="email"
+                name="email"
+                class="newsletter"
+                autocomplete="on">
+                <input
+                type="email"
+                name="email"
+                class="newsletter-input"
+                placeholder="E-mail"
+                required
+                />
+                </label>
+                <button type="submit" class="button-active subscribe">
+                  Zapisz się
+                  <svg
+                  class="icon-footer subscribe-icon"
+                  width="24"
+                  height="24"
+                  >
+                  <use href="./image/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
