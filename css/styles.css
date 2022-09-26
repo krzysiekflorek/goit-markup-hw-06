@@ -1201,9 +1201,9 @@ footer > div {
   justify-content: center;
 }
 .newsletter-container {
-  display: block;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .newsletter-description {
   color: #fff;
