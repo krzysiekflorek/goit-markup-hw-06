@@ -121,7 +121,7 @@ a:hover {
   border-bottom-right-radius: 2px;
   height: 4px;
   background-color: #2196f3;
-  margin-top: 44px;
+  margin-top: 45px;
   display: block;
 }
 .contacts-icon {
@@ -453,14 +453,24 @@ a:hover {
 
 /* section portfolio */
 
+.project-border {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
 .block {
   display: block;
 }
 .section-portfolio {
   padding-top: 94px;
   padding-right: 94px;
-  padding-bottom: 56px;
+  padding-bottom: 50px;
   padding-left: 94px;
+  margin: 0;
+}
+.project-box {
+  padding: 0;
   margin: 0;
 }
 .portfolio-elements {
@@ -477,9 +487,6 @@ a:hover {
 }
 .portfolio-element {
   position: relative;
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hidden-element-container {
   display: flex;
@@ -524,6 +531,16 @@ a:hover {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
+.project-name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  justify-content: left;
+  margin: 0;
+}
 .project-title {
   font-size: 18px;
   font-weight: 700;
@@ -537,6 +554,13 @@ a:hover {
   text-align: left;
   justify-content: left;
   padding: 0 24px 20px;
+}
+.project-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.875;
+  justify-content: left;
+  text-align: left;
 }
 
 .container-portfolio {
@@ -572,7 +596,6 @@ a:hover {
   align-items: flex-start;
   list-style: none;
   gap: 8px;
-  margin-bottom: 50px;
 }
 .categories {
   font-size: 16px;
@@ -585,23 +608,11 @@ a:hover {
   align-items: center;
   text-align: center;
   gap: 30px;
-  padding-top: 0;
-  padding-right: 0;
   padding-bottom: 94px;
-  padding-left: 0;
-  margin-bottom: 0;
 }
 
 /* projects portfolio */
 
-.project-name {
-  color: #212121;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  margin: 0;
-}
 .button-style {
   display: flex;
   gap: 8px;
@@ -627,7 +638,6 @@ a:hover {
   width: 370px;
   background-color: #fff;
   margin: 0;
-  border: 1px solid #eeeeee;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-portfolio:hover,
@@ -653,6 +663,12 @@ a:hover {
 
 .project-box:hover .portfolio-label {
   transform: translateY(0);
+}
+.description-category {
+  padding: 20px 24px;
+}
+.description-category > p {
+  margin: 0;
 }
 
 /* footer  */
