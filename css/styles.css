@@ -1161,8 +1161,8 @@ footer > div {
   visibility: none;
 }
 .checkbox:checked {
-  background-image: url (../images/checkbox.jpg);
-  .border-header: none;
+  background-image: url(../images/checkbox.jpg);
+  border: none;
 }
 .form-button {
   width: 200px;
