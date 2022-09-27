@@ -1082,7 +1082,6 @@ footer > div {
   width: 12px;
   left: 55px;
   bottom: 20px;
-  right: 435px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
