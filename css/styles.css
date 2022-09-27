@@ -1087,7 +1087,7 @@ footer > div {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
   transform: translateY(50%);
-  z-index: -1;
+  z-index: 2;
 }
 .flex-row {
   flex-direction: row;
