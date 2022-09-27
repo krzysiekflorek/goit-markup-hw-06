@@ -1078,8 +1078,8 @@ footer > div {
 .icon-modal {
   position: absolute;
   fill: #212121;
-  left: 60px;
-  bottom: 25px;
+  left: 55px;
+  bottom: 35px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
