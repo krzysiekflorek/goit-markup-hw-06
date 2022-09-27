@@ -1077,8 +1077,17 @@ footer > div {
 }
 .icon-modal {
   position: absolute;
-  z-index: 2;
-  left: 55px;
+  fill: #212121;
+  height: 12px;
+  width: 12px;
+  left: 15px;
+  bottom: 20px;
+  right: 435px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transform: translateY(50%);
+  z-index: -1;
 }
 .flex-row {
   flex-direction: row;
