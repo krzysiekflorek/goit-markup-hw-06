@@ -1134,7 +1134,7 @@ footer > div {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-  flex-direction: row;
+  line-height: 1.17;
   align-items: center;
   cursor: pointer;
   margin-top: 20px;
