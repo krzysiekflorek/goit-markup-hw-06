@@ -1107,6 +1107,9 @@ footer > div {
 .modal-name {
   margin-bottom: 4px;
 }
+.label-name {
+  top: 105px;
+}
 .label-telephone {
   top: 165px;
 }
