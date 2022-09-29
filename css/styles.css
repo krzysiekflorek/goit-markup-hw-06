@@ -800,7 +800,7 @@ footer > div {
 .modal {
   position: relative;
   width: 528px;
-  min-height: 581px;
+  height: 581px;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1037,7 +1037,7 @@ footer > div {
 }
 .icon-footer-send {
   fill: #ffffff;
-  margin-left: 24px;
+  margin-left: 5px;
 }
 .form-modal {
   font-weight: 700;
