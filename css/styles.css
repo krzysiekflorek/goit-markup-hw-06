@@ -878,8 +878,8 @@ footer > div {
   position: absolute;
   fill: #212121;
   left: 15px;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 13px;
   bottom: 20px;
   right: 435px;
   transition-duration: 250ms;
