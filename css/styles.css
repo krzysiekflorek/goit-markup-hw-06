@@ -684,6 +684,7 @@ footer > div {
 .w-text {
   color: #fff;
 }
+
 .contacts-icon {
   background-color: #fff;
   margin-right: 10px;
@@ -693,6 +694,17 @@ footer > div {
   list-style: none;
   text-decoration: none;
 }
+.header-icon {
+  background-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  list-style: none;
+  text-decoration: none;
+}
+
 .icons-box {
   width: 270px;
   height: 120px;
