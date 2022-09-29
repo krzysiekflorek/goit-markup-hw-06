@@ -112,12 +112,6 @@ a:hover {
   margin-top: 45px;
   display: block;
 }
-.contacts-icon {
-  fill: #757575;
-  margin-right: 10px;
-  list-style: none;
-  text-decoration: none;
-}
 .header-list-item-link {
   text-decoration: none;
   display: flex;
@@ -695,6 +689,9 @@ footer > div {
   margin-right: 10px;
   width: 16px;
   height: 16px;
+  fill: #757575;
+  list-style: none;
+  text-decoration: none;
 }
 .icons-box {
   width: 270px;
