@@ -996,12 +996,6 @@ footer > div {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.newsletter-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .newsletter-description {
   color: #ffffff;
   font-weight: 700;
