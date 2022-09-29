@@ -856,7 +856,7 @@ footer > div {
   padding: 0 0 0 42px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border outline-color;
+  transition-property: border;
   background-color: transparent;
 }
 .input-modal::placeholder {
