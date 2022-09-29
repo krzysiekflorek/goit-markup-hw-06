@@ -886,7 +886,7 @@ footer > div {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
   transform: translateY(50%);
-  z-index: 2;
+  z-index: 3;
 }
 .icon-modal:hover,
 .icon-modal:focus {
