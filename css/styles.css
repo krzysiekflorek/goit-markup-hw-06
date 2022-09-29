@@ -865,10 +865,10 @@ footer > div {
   z-index: 2;
 }
 .label-modal:hover,
-.label-modal:focus-within,
+.label-modal:focus,
 .input-modal:hover,
-.input-modal:focus-within,
-.modal-textarea:focus-within,
+.input-modal:focus,
+.modal-textarea:focus,
 .modal-textarea:hover {
   border-color: #2196f3;
   fill: #2196f3;
