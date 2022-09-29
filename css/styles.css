@@ -838,7 +838,7 @@ footer > div {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
-  margin-left: 42px;
+  margin-left: 40px;
   fill: #2196f3;
 }
 .input-modal {
@@ -878,8 +878,8 @@ footer > div {
   position: absolute;
   fill: #212121;
   left: 15px;
-  width: 15px;
-  height: 13px;
+  width: 16px;
+  height: 14px;
   bottom: 20px;
   right: 435px;
   transition-duration: 250ms;
