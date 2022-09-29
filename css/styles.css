@@ -978,6 +978,7 @@ footer > div {
   font-family: "Roboto";
   background-color: #2196f3;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   color: #ffffff;
   width: 200px;
