@@ -1037,7 +1037,7 @@ footer > div {
 }
 .icon-footer-send {
   fill: #ffffff;
-  margin-right: 55px;
+  padding-right: 55px;
 }
 .form-modal {
   font-weight: 700;
