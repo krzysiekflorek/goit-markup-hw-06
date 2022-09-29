@@ -877,16 +877,16 @@ footer > div {
 .icon-modal {
   position: absolute;
   fill: #212121;
-  left: 12px;
+  left: 15px;
   width: 12px;
   height: 12px;
-  bottom: 18px;
-  right: 432px;
+  bottom: 20px;
+  right: 435px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
   transform: translateY(50%);
-  z-index: 3;
+  z-index: 2;
 }
 .icon-modal:hover,
 .icon-modal:focus {
