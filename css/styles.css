@@ -989,7 +989,7 @@ footer > div {
   letter-spacing: 0.06em;
   border-style: none;
   display: flex;
-  padding-left: 0;
+  padding-right: 20;
   align-items: center;
   text-align: center;
   transition-property: color, background-color, box-shadow;
