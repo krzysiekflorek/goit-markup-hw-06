@@ -636,7 +636,7 @@ footer > div {
   letter-spacing: 0.06em;
   border-style: none;
   display: flex;
-  padding-right: 0;
+  padding-left: 42px;
   align-items: center;
   text-align: center;
   transition-property: color, background-color, box-shadow;
@@ -645,7 +645,7 @@ footer > div {
 }
 .icon-footer-send {
   fill: #ffffff;
-  margin-left: 42px;
+  margin-left: 24px;
 }
 
 /****************/
